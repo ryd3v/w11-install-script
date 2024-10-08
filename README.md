@@ -28,7 +28,7 @@ software, ensuring your system is set up quickly and consistently.
 
 1. **Download or Clone the Repository**: You can download the script or clone this repository using Git.
    ```sh
-   git clone https://github.com/ryd3v/win11-install-script.git
+   git clone https://github.com/ryd3v/w11-install-script.git
    ```
 
 2. **Run the Script**: Open PowerShell with administrator privileges and run the script.
