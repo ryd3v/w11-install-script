@@ -8,7 +8,10 @@ $softwareList = @(
     @{ Name = "GPG"; UseWinget = $true; WingetId = "GnuPG.Gpg4win"; Arguments = "--silent" },
     @{ Name = "Anaconda"; UseWinget = $true; WingetId = "Anaconda.Anaconda3"; Arguments = "--silent" },
     @{ Name = "JetBrains Toolbox"; UseWinget = $true; WingetId = "JetBrains.Toolbox"; Arguments = "--silent" },
-    @{ Name = "Vivaldi"; UseWinget = $true; WingetId = "VivaldiTechnologies.Vivaldi"; Arguments = "--silent" }
+    @{ Name = "Vivaldi"; UseWinget = $true; WingetId = "VivaldiTechnologies.Vivaldi"; Arguments = "--silent" },
+    @{ Name = "Discord"; UseWinget = $true; WingetId = "Discord.Discord"; Arguments = "--silent" },
+    @{ Name = "ProtonVPN"; UseWinget = $true; WingetId = "ProtonTechnologies.ProtonVPN"; Arguments = "--silent" },
+    @{ Name = "Standard Notes"; UseWinget = $true; WingetId = "StandardNotes.StandardNotes"; Arguments = "--silent" }
 )
 
 # Function to check if software is installed
