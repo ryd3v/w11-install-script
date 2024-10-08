@@ -4,8 +4,11 @@ $softwareList = @(
     @{ Name = "Google Chrome"; UseWinget = $true; WingetId = "Google.Chrome"; Arguments = "--silent" },
     @{ Name = "Firefox Developer Edition"; UseWinget = $true; WingetId = "Mozilla.Firefox.DeveloperEdition"; Arguments = "--silent" },
     @{ Name = "Node.js"; UseWinget = $true; WingetId = "OpenJS.NodeJS.LTS"; Arguments = "--silent" },
-    @{ Name = "Python"; UseWinget = $true; WingetId = "Python.Python.3"; Arguments = "--silent" },
-    @{ Name = "GPG"; UseWinget = $true; WingetId = "GnuPG.Gpg4win"; Arguments = "--silent" }
+    @{ Name = "Python"; UseWinget = $true; WingetId = "Python.Python.3.10"; Arguments = "--silent" },
+    @{ Name = "GPG"; UseWinget = $true; WingetId = "GnuPG.Gpg4win"; Arguments = "--silent" },
+    @{ Name = "Anaconda"; UseWinget = $true; WingetId = "Anaconda.Anaconda3"; Arguments = "--silent" },
+    @{ Name = "JetBrains Toolbox"; UseWinget = $true; WingetId = "JetBrains.Toolbox"; Arguments = "--silent" },
+    @{ Name = "Vivaldi"; UseWinget = $true; WingetId = "VivaldiTechnologies.Vivaldi"; Arguments = "--silent" }
 )
 
 # Function to check if software is installed
